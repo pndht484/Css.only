@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: #fdfaf7;*/
+  background: linear-gradient(#fccf54, #7732f8) fixed;
+
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #a6d900 0%, #ff4454 100%);
+  opacity: 0.5;
+  animation: huerotator 3s infinite alternate;
+*/
+}
+
+.mainvisual-img {
+  margin: 20px auto 0px;
+  position: relative;
+  background-image: url("118-macbook.png");
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: darken;
+  height: 500px;
+  width: 80%;
+}
+
+.mainvisual-img-content {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 10;
+}
+
+.mainvisual-img p {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20;
+}
+
+.mainvisual-img ul li a {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 17;
+}
+
+/*p {
+  width: auto;
+  color: #fff;
+  height: 150px;
+  width: 150px;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.container {
+  position: relative;
+  background: rgb(1, 36, 110);
+  height: 400px;
+  width: auto;
+  display: flex;
+  column-count: 3;
+  flex-direction: column;
+}
+
+.container ul {
+  margin: 20px auto 0;
+  list-style-type: none;
+  display: flex;
+  break-inside: auto;
+  justify-content: center;
+}
+
+.container ul li {
+  text-align: center;
+  background-color: rgb(1, 36, 110);
+}
+
+.container ul li a {
+  text-decoration: none;
+  color: rgb(245, 247, 252);
+  font-weight: bold;
+  padding: 0px;
+}
+
+.container2 {
+  margin: 20px auto 0;
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  top: 200px;
+  left: 250px;
+  background: rgb(246, 252, 248);
+  text-align: center;
+}
+
+.container2-1 {
+  margin: 8px 8px 0px;
+  /*position: relative;*/
+  width: 95%;
+  height: 90%;
+  border: #333;
+  border-style: solid;
+}
+
+.container2 > h1 {
+  margin: 20px auto 0;
+  width: 60%;
+  font-size: 24px;
+  color: rgb(1, 36, 110);
+  border-bottom: 6px double rgb(250, 240, 240);
+  text-align: center;
+}
+
+.container3 {
+  margin: 0px auto 20px;
+  width: 70%;
+  height: 60%;
+  background: rgb(241, 247, 231);
+}
+
+.container3-w {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0px auto 20px;
+  width: 70%;
+  height: 60%;
+  background: rgb(241, 247, 231);
+}
+
+.container3-w.container3-wrap,
+.container3-w.img {
+  margin: 0px auto 0px;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+.container3-w-reverse {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  margin: 0px auto 20px;
+  width: 70%;
+  height: 60%;
+  background: rgb(241, 247, 231);
+}
+
+.container3-w-reverse.container3-wrap,
+.container3-w-reverse.img {
+  margin: 0px auto 0px;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+}
+/*.container3-w {
+  position: relative;
+  margin: 3px auto 20px;
+  width: 60%;
+  height: 50%;
+  background: #f5f1e7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}*/
+
+.container3-w > h2 {
+  margin: 20px 0px 8px;
+  width: 70%;
+  height: 20%;
+  text-align: center;
+  background: #ef5350;
+}
+
+.title {
+  color: #ef5350;
+  background: #f5b28c;
+  text-align: center;
+  font-size: 24px;
+}
+
+header {
+  background-color: #fff;
+  width: auto;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+ul {
+  margin: 5px 20px 5px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  width: 800px;
+}
+
+li {
+  margin: 0 10px 0;
+  padding: 0 5px 0;
+  text-align: center;
+  background-color: #fff;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 0px;
+}
+
+.box1 {
+  margin: 0 0;
+  background: #e7f713;
+}
+.box2 {
+  margin: 0 0;
+  background: #1335f7;
+}
+
+.circle {
+  display: inline-block;
+  text-align: center; /*左右中央*/
+  width: 60px;
+  height: 60px;
+  line-height: 60px; /*heightと同じ値に*/
+  border-radius: 50%; /*角を丸く*/
+  background: skyblue;
+  color: #fff;
+}
+
+h1 {
+  margin: 20px auto 0;
+  width: 50%;
+  font-size: 24px;
+  color: rgb(221, 230, 243);
+  border-bottom: 6px double rgb(233, 196, 196);
+  text-align: center;
+}
+
+h2 {
+  margin: 20px 50px 0px;
+  padding-top: 5px;
+  color: rgb(74, 34, 252);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h2::before {
+  content: "=";
+}
+
+h2::after {
+  content: "=";
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li.btn-square > a {
+  display: inline-block;
+  padding: 0px 10px 0px;
+  text-decoration: none;
+  background: #27ec27; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position: absolute;
+  right: 130px;
+}
+li.btn-square > a:hover {
+  /*ボタンを押したとき*/
+  background: #2925f7; /*ボタン色*/
+  color: rgb(20, 243, 76);
+  border-bottom: solid 4px #627295;
+  position: absolute;
+  right: 130px;
+}
+
+li.btn-square1 > a {
+  display: inline-block;
+  padding: 0px 10px 0px;
+  text-decoration: none;
+  background: #e9d41b; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295; /*線を消す*/
+  border-radius: 3px;
+  position: absolute;
+  right: 10px;
+}
+li.btn-square1 > a:hover {
+  /*ボタンを押したとき*/
+  background: #2925f7; /*ボタン色*/
+  color: rgb(248, 252, 33);
+  border-bottom: solid 4px #627295; /*線を消す*/
+  position: absolute;
+  right: 10px;
+}
+
+.center {
+  position: absolute;
+  width: 100%;
+  top: 70%;
+  left: 40%;
+}
+
+.btn-square2 {
+  display: inline-block;
+  padding: 0px 100px 0px;
+  　text-decoration: none;
+  background: #facd07; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.btn-square2 > a:hover {
+  /*ボタンを押したとき*/
+  background: #2925f7; /*ボタン色*/
+  color: rgb(248, 252, 33);
+  border-bottom: solid 4px #627295; /*線を消す*/
+  position: absolute;
+  right: 10px;
+}
+
+.acd-content p {
+  margin: 0;
+}
+.acd-check {
+  display: none;
+}
+.check-label,
+.acd-content {
+  width: 800px;
+  font-size: 14px;
+  max-width: 100%;
+  width: 800px;
+  margin: 0 auto 2px auto;
+  background: #00bcd4;
+  color: #fff;
+}
+.check-label {
+  position: relative;
+  display: block;
+  padding: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+.check-label::after {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  content: "+";
+}
+.acd-content {
+  height: 0;
+  opacity: 0;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+.acd-check:checked + .check-label + .acd-content {
+  display: flex;
+  background: #16a085;
+  align-items: center;
+  height: 40px;
+  opacity: 1;
+}
+.acd-check:checked + .check-label::after {
+  content: "-";
+  font-size: 16px;
+}
+
+table {
+  margin: 10px auto 0px;
+  table-layout: fixed;
+  width: 70%;
+
+  border: 10px solid purple;
+}
+
+tr:nth-child(even) {
+  background: #4ff1d1;
+}
+
+th:first-child {
+  background: #fdbc08;
+  color: white;
+  text-align: center;
+  width: 10%;
+}
+
+th:nth-child(2) {
+  background: #eee6d6;
+  color: rgb(7, 3, 3);
+  text-align: center;
+  width: 30%;
+}
+
+th:nth-child(3) {
+  background: #f1e9d9;
+  color: rgb(7, 3, 3);
+  text-align: center;
+  width: 30%;
+}
